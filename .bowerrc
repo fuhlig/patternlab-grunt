@@ -1,0 +1,5 @@
+{
+    "proxy" : "http://http-proxy.intern.neusta.de:3128",
+    "https-proxy" : "http://https-proxy.intern.neusta.de:3128",
+    "strict-ssl": false
+}
