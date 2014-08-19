@@ -1,6 +1,8 @@
 .DS_Store
-public/*
-source/*
+# public/*
+# source/*
+bower_components/
+node_modules/
 config.ini
 latest-change.txt
 *-ck.js
