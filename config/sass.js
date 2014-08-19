@@ -1,11 +1,15 @@
 module.exports = {
+    "options": {
+        "require": "sass-globbing",
+        "loadPath": ["bower_components"],
+        // "sourcemap": true
+    },
     "dev": {
         "options": {
             "style": "expanded",
-            "require": "sass-globbing"
         },
         "files": {
-            "dist/assets/css/style.css": "src/assets/css/style.scss"
+            "public/css/style.css": "source/css/main.scss"
         }
     },
     "build": {
@@ -14,7 +18,7 @@ module.exports = {
             "require": "sass-globbing"
         },
         "files": {
-            "build/assets/css/style.css": "src/assets/css/style.scss"
+            "build/assets/css/style.css": "src/assets/css/main.scss"
         }
     }
 }

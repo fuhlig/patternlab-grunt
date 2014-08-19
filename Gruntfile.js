@@ -22,11 +22,11 @@ module.exports = function(grunt) {
         // 'concat:dev',
         // 'copy:img',
         // 'copy:fonts',
-        // 'concurrent',
         // 'jshint:dev',
-        // 'connect',
-        'watch',
-        'exec:patternlab'
+        'concurrent',
+        'exec:patternlab',
+        'connect:server',
+        'watch'
     ]);
 
     // Deploy task, compressing the css and concatenating the js files

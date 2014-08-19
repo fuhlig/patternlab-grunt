@@ -1,6 +1,6 @@
 module.exports = {
     "scss": {
-        "files": ["source/assets/css/**/{.*,*,*/*}"],
+        "files": ["source/css/**/{.*,*,*/*}"],
         "tasks": "scss"
     },
 
@@ -39,13 +39,11 @@ module.exports = {
     },
     "livereload": {
         "options": {
-            "livereload": true
+            "livereload": '<%= connect.options.livereload %>'
         },
         "files": [
-            "dist/**/*.html",
-            "dist/assets/css/{,*/}*.css",
-            "dist/assets/js/{,*/}*.*",
-            "dist/assets/img/{,*/}*.*"
+            "public/css/**/*",
+            "public/js/**/*"
         ]
     }
 }
