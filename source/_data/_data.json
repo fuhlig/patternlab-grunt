@@ -24,6 +24,17 @@
 			"alt": "Rectangle"
 		}
 	},
+	"colors": [
+		{ "color": "primary" },
+		{ "color": "primary--light" },
+		{ "color": "primary--" },
+		{ "color": "secondary" },
+		{ "color": "secondary--light" },
+		{ "color": "secondary--lighter" },
+		{ "color": "tertiary" },
+		{ "color": "tertiary--light" },
+		{ "color": "tertiary--lighter" }
+	],
 	"headline" : {
 		"short" : "Lorem ipsum dolor sit (37 characters)",
 		"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"

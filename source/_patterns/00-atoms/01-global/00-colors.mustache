@@ -1,4 +1,12 @@
 <ul class="sg-colors">
+
+	{{#colors}}
+		<li>
+			<span class="sg-swatch bg--{{ color }}"></span>
+			<span class="sg-label">{{ color }}</span>
+		</li>
+	{{/colors}}
+
 	<li>
 		<span class="sg-swatch" style="background: #fff;"></span>
 		<span class="sg-label">#ff0000</span>

@@ -4,3 +4,33 @@
 /**
  * Basic color classes and placeholders
  */
+
+$color-primary: #f00;
+$color-primary--light: lighten(#f00, 10%);
+$color-primary--lighter: lighten(#f00, 30%);
+
+$color-secondary: #0f0;
+$color-secondary--light: lighten(#f00, 10%);
+$color-secondary--lighter: lighten(#f00, 30%);
+
+$color-tertiary: #00f;
+$color-tertiary--light: lighten(#f00, 10%);
+$color-tertiary--lighter: lighten(#f00, 30%);
+
+$color-list: (
+	primary: $color-primary,
+	primary--light: $color-primary--light,
+	primary--: $color-primary--lighter,
+	secondary: $color-secondary,
+	secondary--light: $color-secondary--light,
+	secondary--lighter: $color-secondary--lighter,
+	tertiary: $color-tertiary,
+	tertiary--light: $color-tertiary--light,
+	tertiary--lighter: $color-tertiary--lighter
+);
+
+@each $colorname, $color in $color-list {
+	.bg--#{$colorname} {
+		background-color: $color;
+	}
+}
