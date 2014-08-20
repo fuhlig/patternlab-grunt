@@ -10,12 +10,12 @@ $color-primary--light: lighten(#f00, 10%);
 $color-primary--lighter: lighten(#f00, 30%);
 
 $color-secondary: #0f0;
-$color-secondary--light: lighten(#f00, 10%);
-$color-secondary--lighter: lighten(#f00, 30%);
+$color-secondary--light: lighten(#0f0, 10%);
+$color-secondary--lighter: lighten(#0f0, 30%);
 
 $color-tertiary: #00f;
-$color-tertiary--light: lighten(#f00, 10%);
-$color-tertiary--lighter: lighten(#f00, 30%);
+$color-tertiary--light: lighten(#00f, 10%);
+$color-tertiary--lighter: lighten(#00f, 30%);
 
 $color-list: (
 	primary: $color-primary,

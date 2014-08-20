@@ -9,7 +9,9 @@ module.exports = {
             "style": "expanded",
         },
         "files": {
-            "public/css/main.css": "source/css/main.scss"
+            "public/css/main.css": "source/css/main.scss",
+            "public/styleguide/css/styleguide.css": "core/styleguide/css/styleguide.scss",
+            "public/styleguide/css/styleguide-specific.css": "core/styleguide/css/styleguide-specific.scss"
         }
     },
     "build": {

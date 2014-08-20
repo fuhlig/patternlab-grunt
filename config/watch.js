@@ -1,6 +1,9 @@
 module.exports = {
     "scss": {
-        "files": ["source/css/**/{.*,*,*/*}"],
+        "files": [
+            "source/css/**/{.*,*,*/*}",
+            "core/styleguide/css/**/{.*,*,*/*}"
+        ],
         "tasks": "scss"
     },
 

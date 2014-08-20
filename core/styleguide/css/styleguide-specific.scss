@@ -109,18 +109,18 @@ $animate-quick: 0.2s;
 		overflow: hidden;
 		border: 1px solid $sg-tertiary;
 		padding: 0.3em;
-		margin: 0 0.2em 0.2em 0;
+		margin: 0 10px 20px 0;
 
 		@media all and (min-width: $sg-bp-small-2) {
 			float: left;
-			width: 5em;
+			width: 200px;
 		}
 	}
 }
 
 .sg-swatch {
 	display: block;
-	height: 1.5em;
+	height: 150px;
 	width: 50%;
 	
 	@media all and (max-width: $sg-bp-small-2) {
@@ -130,7 +130,7 @@ $animate-quick: 0.2s;
 
 	@media all and (min-width: $sg-bp-small-2) {
 		width: 100%;
-		height: 4em;
+		height: 150px;
 		margin-bottom: 0.2em;
 	}
 	
