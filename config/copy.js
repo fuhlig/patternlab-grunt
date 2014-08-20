@@ -1,4 +1,8 @@
 module.exports = {
+    "styles": {
+        "src": "source/css/main.css",
+        "dest": "public/css/main.css"
+    },
     "deploy": {
         "files": [
             {

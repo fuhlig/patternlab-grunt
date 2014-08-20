@@ -23,8 +23,9 @@ module.exports = function(grunt) {
         // 'copy:img',
         // 'copy:fonts',
         // 'jshint:dev',
+        // 'exec:patternlab',
         'concurrent',
-        'exec:patternlab',
+        'autoprefixer',
         'connect:server',
         'watch'
     ]);
@@ -47,7 +48,9 @@ module.exports = function(grunt) {
     ]);
 
     grunt.registerTask('scss', [
-        'sass:dev'
+        'sass:dev',
+        // 'autoprefixer',
+        // 'copy:styles'
     ]);
 
     grunt.registerTask('html', [

@@ -42,7 +42,7 @@ module.exports = {
             "livereload": '<%= connect.options.livereload %>'
         },
         "files": [
-            "public/css/**/*",
+            "public/css/main.css",
             "public/js/**/*"
         ]
     }
